@@ -1,0 +1,19 @@
+{
+  "name": "brainstorm",
+  "version": "1.0.0",
+  "description": "A new way to brainstorm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NickGraus/brainstorm.git"
+  },
+  "author": "Nick Graus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NickGraus/brainstorm/issues"
+  },
+  "homepage": "https://github.com/NickGraus/brainstorm#readme"
+}
