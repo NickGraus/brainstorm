@@ -18,6 +18,7 @@
   "homepage": "https://github.com/NickGraus/brainstorm#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "leapjs": "^0.6.4",
     "ndjson": "^1.5.0"
   }
 }
