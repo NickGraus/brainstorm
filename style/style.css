@@ -1,5 +1,58 @@
-#result {
-  position: absolute;
-  top: 40%;
-  left: 5%;
+body {
+  display: grid;
+  grid-template-areas:
+    'header header header header header'
+    'canvas canvas canvas right1 right1'
+    'canvas canvas canvas right2 right2'
+    'canvas canvas canvas right3 right3'
+    'canvas canvas canvas right4 right4';
+
+  font-family: Marker Felt;
+  background-color: purple;
+  color: #fff;
+}
+
+canvas {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-left: 12.5%
+}
+
+.item1 {
+  grid-area: header;
+}
+
+.item2 {
+  grid-area: canvas;
+}
+
+.item3 {
+  grid-area: right1;
+}
+
+.item4 {
+  grid-area: right2;
+}
+
+.item5 {
+  grid-area: right3;
+}
+
+.item6 {
+  grid-area: right4;
+}
+
+.item7 {
+  grid-area: right4;
+}
+
+#header, #output, #info, #btnReset, #btnResult {
+  display:flex;
+  align-content: center;
+  justify-content: center;
+  font-family: Marker Felt;
+}
+
+#header {
+
 }
