@@ -6,7 +6,7 @@ var output;
 var colorRed = 0;
 var colorGreen = 0;
 var colorBlue = 0;
-var resultArray = ["Cat", "Rainbow", "Train", "Bike", "Horse", "Sun", "Cow", "Giraffe", "Tree", "Brain", "Cloud", "Clock", "Plane"];
+var resultArray = ["Cat", "Rainbow", "Train", "Bike", "Horse", "Sun", "Cow", "Giraffe", "Tree", "Brain", "Cloud", "Clock", "Plane", "Heart"];
 
 
 
@@ -93,5 +93,5 @@ function resetCanvas() {
 function showResult() {
   result = resultArray[Math.floor(Math.random() * resultArray.length)];
   output = document.getElementById("output");
-  output.innerHTML = result;
+  output.innerHTML = "I'm thinking about: <br><br>" + result;
 }
